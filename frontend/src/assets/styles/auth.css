@@ -1,0 +1,104 @@
+.container-fluid {
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: #1a75ff
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.wrapper {
+    width: 390px;
+    background-color: #ffffff;
+    box-shadow: 0px 15px 20px rgba(0,0,0,0.1);
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.wrapper .title-text {
+    font-size: 20px;
+    text-align: center;
+}
+
+.wrapper .slide-controls{
+    display: flex;
+    justify-content: space-between;
+    height: 45px;
+    width: 100%;
+    margin: 20px 0;
+    border: 1px solid lightgrey;
+    border-radius: 15px;
+}
+
+.slide-controls .slide{
+    height: 100%;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.6s ease;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slide-controls .slide.checked {
+    background-color: #003366;
+    color: #fff;
+}
+
+.form-div form {
+    transition: all 0.6s cubic-bezier(0.68,-0.55,0.265,1.55);
+}
+
+.form-div .field input {
+    height: 45px;
+    transition: all 0.3s ease;
+}
+
+.form-div .field input:focus {
+    box-shadow: none;
+    border-color: #1a75ff;
+    font-size: 14px;
+}
+
+.form-div .field input::placeholder{
+    transition: all 0.3s ease;
+}
+
+.form-div .field input:focus::placeholder{
+    color: #1a75ff;
+}
+
+.pass-link {
+    text-align: right;
+}
+
+.submit-btn {
+    width: 100%;
+    background-color: #003366;
+    color: #fff;
+    height: 45px;
+    border-radius: 15px;
+}
+
+.submit-btn:hover {
+    background-color: #004080;
+    color: #fff;
+}
+
+.signup-link {
+    text-align: center;
+}
+
+.signup-link a {
+    margin-left: 5px;
+}

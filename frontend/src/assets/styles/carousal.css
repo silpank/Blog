@@ -1,0 +1,46 @@
+.trending-blogs {
+    margin-top: 30px;
+    padding-bottom: 50px;
+}
+
+.trending-blogs-heading {
+    text-align: center;
+}
+
+.trending-carousal {
+    margin-top: 30px;
+}
+
+.trending-carousal .carousel-inner .container .row img {
+    height:300px !important;
+    width:500px !important;
+    max-width: 100% !important;
+}
+
+.carousel-control-prev,.carousel-control-next {
+    display: none !important;
+}
+
+.trending-carousal .carousel-indicators {
+    margin-top: 50px !important;
+    bottom: -70px !important;
+}
+
+.trending-carousal .carousel-indicators button {
+    background-color: rgba(0, 0, 0, 0.2); /* Inactive dot color */
+    border-radius: 50%; /* Makes the dots rounded */
+    width: 8px; /* Adjust dot width */
+    height: 8px; /* Adjust dot height */
+    margin-right: 5px; /* Adjust space between dots */
+    margin-left: 5px; /* Adjust space between dots */
+}
+
+
+.trending-carousal .carousel-indicators button.active {
+    background-color: #f79918;
+}
+
+.carousal-content {
+    display: flex;
+    align-items: center;
+}

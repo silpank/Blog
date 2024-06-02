@@ -1,0 +1,23 @@
+.all-blogs {
+    margin-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .all-blogs-header {
+    text-align: center;
+  }
+  
+  .card-image {
+    margin-bottom: 20px;
+  }
+
+  .card-image img {
+    border-radius: 7px;
+    height: 250px;
+    width: 100%;
+  }
+
+.card-content {
+  word-break: break-word;
+}
+  

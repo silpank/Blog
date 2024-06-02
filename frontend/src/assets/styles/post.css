@@ -1,0 +1,87 @@
+.post-container {
+    padding: 30px;
+}
+
+i {
+    cursor: pointer;
+}
+
+.icon-section {
+    display: flex;
+    gap: 16px;
+}
+
+i.liked {
+    color: #e30d0d;
+}
+
+.like-icon,
+.comment-icon {
+    margin-right: 5px;
+}
+
+input {
+    height: 35px;
+}
+
+.user-photo img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: contain;
+}
+
+.blog-image {
+    border-radius: 5px;
+}
+
+.blog-content {
+    font-size: 16px;
+    text-align: left;
+    word-break: break-word;
+}
+
+.add-comment {
+    display: flex;
+    gap: 10px;
+}
+
+.comment-div {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 15px 20px rgba(0,0,0,0.1);
+}
+
+.comments {
+    text-align: left;
+}
+
+.comment-input {
+    height: 40px;
+}
+
+.comment-button {
+    height: 40px;
+}
+
+.commentedheader {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    line-height: normal;
+}
+
+.commenter-image {
+    width: 35px;
+    height: 40px;
+    object-fit:fill;
+    border-radius: 50%;
+}
+
+.comment {
+    word-break: break-word;
+    font-size: 16px;
+}
+
+/* Additional styling for other elements if needed */

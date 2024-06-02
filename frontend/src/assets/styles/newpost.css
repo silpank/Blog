@@ -1,0 +1,21 @@
+.newpost-btn {
+    background-color: #003366;
+    color: #fff;
+    height: 45px;
+    border-radius: 10px;
+}
+
+.newpost-btn:hover {
+    background-color: #004080;
+    color: #fff;
+}
+
+.cancel-btn {
+    height: 45px;
+    border-radius: 10px;
+}
+
+.header-buttons {
+    display: flex;
+    gap: 20px;
+}

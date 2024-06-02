@@ -1,0 +1,5 @@
+                          BACKEND
+        ----------------------------------------
+        Create a backend folder named : blog-backend      
+        Create a package.json file : npm init -y
+        Install 3rd party packages            
